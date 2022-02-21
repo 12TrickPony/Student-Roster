@@ -9,7 +9,7 @@
 
 using namespace std;
 
-// TASK D.1 - CREATE STUDENT CLASS
+// CREATE STUDENT CLASS
 class Student 
 {
 public:
