@@ -12,12 +12,12 @@ using namespace std;
 int main() 
 {
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
-	cout << "WESTERN GOVERNORS UNIVERSITY | COLLEGE OF IT" << endl;
+	cout << "UNIVERSITY NAME HERE | COLLEGE OF IT" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
 
 	// TASK F.1 - STUDENT, COURSE, & PROJECT INFO HEADER
-	cout << "COURSE: C867 - SCRIPTING & PROGRAMMING: APPLICATIONS" << endl;
-	cout << "ASSIGNMENT: JYM1 - JYM1 TASK 1: CLASS ROSTER" << endl;
+	cout << "COURSE: XXXX - SCRIPTING & PROGRAMMING: APPLICATIONS" << endl;
+	cout << "ASSIGNMENT: TASK 1: CLASS ROSTER" << endl;
 	cout << "CODING LANGUAGE: C++" << endl;
 	cout << "STUDENT NAME: STUDENT NAME HERE" << endl;
 	cout << "STUDENT ID: XXXXXXXXX" << endl << endl;
@@ -35,7 +35,7 @@ int main()
 		"A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
 		"A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
 		"A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
-		"A5,Michelle,Candelaria,mcandel@wgu.edu,33,10,20,30,SOFTWARE"
+		"A5,First Name,Last Name,Email,33,10,20,30,SOFTWARE"
 	};
 
 	// TASK F.2 - CREATE INSTANCE IN ROSTER CLASS - classRoster
