@@ -6,7 +6,7 @@
 
 using namespace std;
 
-// TASK D.2a
+
 string Student::getStudentID() const {
 	return studentID;
 }
@@ -46,7 +46,7 @@ void Student::getDaysInCourse() const
 		<< left << setw(13) << " ";
 }
 
-// TASK D.2b
+
 void Student::setStudentID(string inputStudentID)
 {
 	studentID = inputStudentID;
@@ -72,7 +72,7 @@ void Student::setAge(int inputAge)
 	age = inputAge;
 }
 
-// TASK D.2c
+
 void Student::setDegreeProgram()
 {
 	if (degree == "SECURITY") {
@@ -98,7 +98,7 @@ void Student::setDegree(string inputDegree)
 	degree = inputDegree;
 }
 
-// TASK D.2d
+
 Student::Student(string inputStudentID, string inputFirstName, string inputLastName, string inputEmailAddress, int inputAge, int days1, int days2, int days3, string inputDegree) 
 {
 	studentID = inputStudentID;
@@ -113,7 +113,7 @@ Student::Student(string inputStudentID, string inputFirstName, string inputLastN
 	setDegreeProgram();
 }
 
-// TASK D.2e
+
 void Student::print() const
 {
 	cout << left
