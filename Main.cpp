@@ -19,8 +19,8 @@ int main()
 	cout << "COURSE: C867 - SCRIPTING & PROGRAMMING: APPLICATIONS" << endl;
 	cout << "ASSIGNMENT: JYM1 - JYM1 TASK 1: CLASS ROSTER" << endl;
 	cout << "CODING LANGUAGE: C++" << endl;
-	cout << "STUDENT NAME: MICHELLE R CANDELARIA" << endl;
-	cout << "STUDENT ID: 000851667" << endl << endl;
+	cout << "STUDENT NAME: STUDENT NAME HERE" << endl;
+	cout << "STUDENT ID: XXXXXXXXX" << endl << endl;
 
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "CLASS ROSTER" << endl;
