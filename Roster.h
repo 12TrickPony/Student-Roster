@@ -11,7 +11,7 @@
 
 using namespace std;
 
-// TASK E.1 - CREATE ROSTER CLASS
+// CREATE ROSTER CLASS
 class Roster 
 {
 public:
