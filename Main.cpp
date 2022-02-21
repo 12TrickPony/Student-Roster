@@ -27,7 +27,7 @@ int main()
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
 
 
-	// TASK A - MODIFY STUDENT DATA TABLE
+	// MODIFY STUDENT DATA TABLE
 	int numStudents = 5;
 	const string studentDataTable[] =
 	{
@@ -35,17 +35,17 @@ int main()
 		"A2,Suzan,Erickson,Erickson_1990@gmailcom,19,50,30,40,NETWORK",
 		"A3,Jack,Napoli,The_lawyer99yahoo.com,19,20,40,33,SOFTWARE",
 		"A4,Erin,Black,Erin.black@comcast.net,22,50,58,40,SECURITY",
-		"A5,First Name,Last Name,Email,33,10,20,30,SOFTWARE"
+		"A5,First Name,Last Name,Email,Age,XX,XX,XX,SOFTWARE"
 	};
 
-	// TASK F.2 - CREATE INSTANCE IN ROSTER CLASS - classRoster
-	// TASK F.3 - ADD STUDENTS TO CLASS ROSTER
-	// TASK F.4.1 - printAll()
+	// CREATE INSTANCE IN ROSTER CLASS - classRoster
+	// ADD STUDENTS TO CLASS ROSTER
+	// printAll()
 	Roster classRoster;
 	classRoster.parseTable(studentDataTable, numStudents);
 	classRoster.printAll();
 
-	// TASK F.4.2 - PRINT INVALID EMAILS
+	// PRINT INVALID EMAILS
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "INVALID EMAIL ADDRESSES DETECTED" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
@@ -53,7 +53,7 @@ int main()
 	classRoster.printInvalidEmails();
 	cout << endl;
 
-	// TASK F.4.3 - DISPLAY AVG COURSE COMPLETION DAYS
+	// DISPLAY AVG COURSE COMPLETION DAYS
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "AVERAGE COURSE COMPLETION DAYS PER STUDENT" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
@@ -64,7 +64,7 @@ int main()
 	}
 	cout << endl;
 
-	// TASK F.4.4 - PRINT BY DEGREE PROGRAM
+	// PRINT BY DEGREE PROGRAM
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "STUDENTS ENROLLED IN THE SOFTWARE DEGREE PROGRAM" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
@@ -72,7 +72,7 @@ int main()
 	classRoster.printByDegree(DegreeProgram::SOFTWARE);
 	cout << endl;
 
-	// TASK F.4.5 - REMOVE STUDENT FROM CLASS ROSTER
+	// REMOVE STUDENT FROM CLASS ROSTER
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "STUDENT REMOVAL FROM ROSTER" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
@@ -81,7 +81,7 @@ int main()
 	classRoster.remove("A3");
 	cout << endl;
 
-	// TASK F.4.6 - PRINT UPDATED CLASS ROSTER
+	// PRINT UPDATED CLASS ROSTER
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "UPDATED CLASS ROSTER" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
@@ -89,7 +89,7 @@ int main()
 	classRoster.printAll();
 	cout << endl;
 
-	// TASK F.4.7 - VERIFY STUDENT REMOVAL FROM ROSTER
+	// VERIFY STUDENT REMOVAL FROM ROSTER
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl;
 	cout << "REMOVAL VERIFICATION" << endl;
 	cout << "----------------------------------------------------------------------------------------------------------------" << endl << endl;
