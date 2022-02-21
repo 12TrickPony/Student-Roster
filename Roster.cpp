@@ -7,7 +7,7 @@
 #include "Student.h"
 #include "Roster.h"
 
-//TASK E.2a,b
+
 void Roster::parseTable(string const studentDataTable[], int numStudents)
 {
 	for (int i = 0; i < numStudents; i++)
@@ -34,13 +34,13 @@ void Roster::parseTable(string const studentDataTable[], int numStudents)
 	}
 }
 
-// TASK E.3a
+
 void Roster::add(string studentId, string firstName, string lastName, string emailAddress, int age, int numDays1, int numDays2, int numDays3, string inputDegree, int i)
 {
 	classRosterArray[tableSize++] = new Student(studentId, firstName, lastName, emailAddress, age, numDays1, numDays2, numDays3, inputDegree);
 }
 
-// TASK E.3.b
+
 void Roster::remove(string inputStudentID)
 {
 	bool sIDfound = false;
@@ -68,7 +68,7 @@ void Roster::remove(string inputStudentID)
 
 }
 
-// TASK E.3c
+
 void Roster::printAll() {
 	cout << left 
 		<< setw(12) 
@@ -95,7 +95,7 @@ void Roster::printAll() {
 	cout << endl;
 }
 
-// TASK E.3d
+
 void Roster::AvgCourseDays(string studentID) 
 {
 	bool found = false;
@@ -122,7 +122,7 @@ void Roster::AvgCourseDays(string studentID)
 
 }
 
-// TASK E.3e
+
 void Roster::printInvalidEmails()
 {
 	string validateEmail;
@@ -141,7 +141,7 @@ void Roster::printInvalidEmails()
 
 }
 
-// TASK E.3f
+
 void Roster::printByDegree(DegreeProgram inputDegreeProgram)
 {
 	cout << left
@@ -171,7 +171,7 @@ void Roster::printByDegree(DegreeProgram inputDegreeProgram)
 
 }
 
-// TASK F.5
+
 Roster::~Roster()
 {
 	for (int i = 0; i < tableSize; i++)
